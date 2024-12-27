@@ -1,18 +1,20 @@
 package com.pchousebd.testcases;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.pchousebd.pages.HomePage;
+
 public class HomePageAfterLoginTest extends Base {
-	
+	HomePage homepage = new HomePage();
 	@Test
 	public void returnToHomePage() {
-		getDriver().findElement(By.xpath("//img[@title='PC House']")).click();
+		//getDriver().findElement(By.xpath("//img[@title='PC House']")).click();
 		
-		String actual = getDriver().findElement(By.xpath("//div[normalize-space()='Featured Categories']")).getText();
-		String expected = "Featured Categories";
-		Assert.assertTrue(actual.contains(expected));
+		homepage.clickTitle();
+		
+		String actual = homepage.actualMessage();
+		Assert.assertTrue(actual.contains(homepage.expectedMessage));
 		
 	}
 

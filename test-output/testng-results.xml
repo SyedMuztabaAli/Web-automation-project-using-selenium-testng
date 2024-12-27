@@ -1,129 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-27T05:34:40 BDT" name="Suite" finished-at="2024-12-27T05:34:51 BDT" duration-ms="10937">
+  <suite started-at="2024-12-27T10:30:56 BDT" name="Suite" finished-at="2024-12-27T10:31:33 BDT" duration-ms="37359">
     <groups>
     </groups>
-    <test started-at="2024-12-27T05:34:40 BDT" name="Test" finished-at="2024-12-27T05:34:51 BDT" duration-ms="10937">
+    <test started-at="2024-12-27T10:30:56 BDT" name="Test" finished-at="2024-12-27T10:31:33 BDT" duration-ms="37359">
       <class name="com.pchousebd.testcases.HoverToProcessorTest">
-        <test-method signature="hoverToProcessorOptions()[pri:0, instance:com.pchousebd.testcases.HoverToProcessorTest@385c9627]" started-at="2024-12-27T05:34:45 BDT" name="hoverToProcessorOptions" finished-at="2024-12-27T05:34:47 BDT" duration-ms="1155" status="PASS">
+        <test-method signature="hoverToProcessorOptions()[pri:0, instance:com.pchousebd.testcases.HoverToProcessorTest@ba2f4ec]" started-at="2024-12-27T10:31:10 BDT" name="hoverToProcessorOptions" finished-at="2024-12-27T10:31:10 BDT" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverToProcessorOptions -->
       </class> <!-- com.pchousebd.testcases.HoverToProcessorTest -->
       <class name="com.pchousebd.testcases.HomePageAfterLoginTest">
-        <test-method signature="returnToHomePage()[pri:0, instance:com.pchousebd.testcases.HomePageAfterLoginTest@5aa9e4eb]" started-at="2024-12-27T05:34:43 BDT" name="returnToHomePage" finished-at="2024-12-27T05:34:44 BDT" duration-ms="814" status="PASS">
+        <test-method signature="returnToHomePage()[pri:0, instance:com.pchousebd.testcases.HomePageAfterLoginTest@367ffa75]" started-at="2024-12-27T10:31:07 BDT" name="returnToHomePage" finished-at="2024-12-27T10:31:09 BDT" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnToHomePage -->
       </class> <!-- com.pchousebd.testcases.HomePageAfterLoginTest -->
       <class name="com.pchousebd.testcases.LoginTest">
-        <test-method signature="loginWithValidCredential()[pri:0, instance:com.pchousebd.testcases.LoginTest@3fc2959f]" started-at="2024-12-27T05:34:42 BDT" name="loginWithValidCredential" finished-at="2024-12-27T05:34:43 BDT" duration-ms="1962" status="PASS">
+        <test-method signature="loginWithValidCredential()[pri:0, instance:com.pchousebd.testcases.LoginTest@2cd76f31]" started-at="2024-12-27T10:31:03 BDT" name="loginWithValidCredential" finished-at="2024-12-27T10:31:07 BDT" duration-ms="4381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredential -->
       </class> <!-- com.pchousebd.testcases.LoginTest -->
       <class name="com.pchousebd.testcases.ProcessorSelectionFromPageTest">
-        <test-method signature="processorSelect()[pri:0, instance:com.pchousebd.testcases.ProcessorSelectionFromPageTest@682b2fa]" started-at="2024-12-27T05:34:49 BDT" name="processorSelect" finished-at="2024-12-27T05:34:51 BDT" duration-ms="1338" status="PASS">
+        <test-method signature="processorSelect()[pri:0, instance:com.pchousebd.testcases.ProcessorSelectionFromPageTest@fbd1f6]" started-at="2024-12-27T10:31:14 BDT" name="processorSelect" finished-at="2024-12-27T10:31:16 BDT" duration-ms="1684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processorSelect -->
       </class> <!-- com.pchousebd.testcases.ProcessorSelectionFromPageTest -->
       <class name="com.pchousebd.testcases.HoverToComponentMenuTest">
-        <test-method signature="hoverToComponentDropOptions()[pri:0, instance:com.pchousebd.testcases.HoverToComponentMenuTest@6989da5e]" started-at="2024-12-27T05:34:44 BDT" name="hoverToComponentDropOptions" finished-at="2024-12-27T05:34:45 BDT" duration-ms="1159" status="PASS">
+        <test-method signature="hoverToComponentDropOptions()[pri:0, instance:com.pchousebd.testcases.HoverToComponentMenuTest@49438269]" started-at="2024-12-27T10:31:09 BDT" name="hoverToComponentDropOptions" finished-at="2024-12-27T10:31:10 BDT" duration-ms="724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverToComponentDropOptions -->
       </class> <!-- com.pchousebd.testcases.HoverToComponentMenuTest -->
+      <class name="com.pchousebd.testcases.GotoCheckoutPageTest">
+        <test-method signature="checkoutButtonClick()[pri:0, instance:com.pchousebd.testcases.GotoCheckoutPageTest@24269709]" started-at="2024-12-27T10:31:19 BDT" name="checkoutButtonClick" finished-at="2024-12-27T10:31:22 BDT" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutButtonClick -->
+      </class> <!-- com.pchousebd.testcases.GotoCheckoutPageTest -->
+      <class name="com.pchousebd.testcases.QuickChekoutTest">
+        <test-method signature="checkout()[pri:0, instance:com.pchousebd.testcases.QuickChekoutTest@24aed80c]" started-at="2024-12-27T10:31:22 BDT" name="checkout" finished-at="2024-12-27T10:31:33 BDT" duration-ms="10917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- com.pchousebd.testcases.QuickChekoutTest -->
       <class name="com.pchousebd.testcases.ProcessorAddToCartTest">
-        <test-method signature="addTocartProcessor()[pri:0, instance:com.pchousebd.testcases.ProcessorAddToCartTest@217ed35e]" started-at="2024-12-27T05:34:51 BDT" name="addTocartProcessor" finished-at="2024-12-27T05:34:51 BDT" duration-ms="111" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Shopping Cart']"}
-  (Session info: chrome=131.0.6778.205)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [332ba18df68dd444125fa5cf9c271ec5, findElement {using=xpath, value=//span[normalize-space()='Shopping Cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58297/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 332ba18df68dd444125fa5cf9c271ec5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Shopping Cart']"}
-  (Session info: chrome=131.0.6778.205)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [332ba18df68dd444125fa5cf9c271ec5, findElement {using=xpath, value=//span[normalize-space()='Shopping Cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58297/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 332ba18df68dd444125fa5cf9c271ec5
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.pchousebd.testcases.ProcessorAddToCartTest.addTocartProcessor(ProcessorAddToCartTest.java:12)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="addTocartProcessor()[pri:0, instance:com.pchousebd.testcases.ProcessorAddToCartTest@5dda768f]" started-at="2024-12-27T10:31:16 BDT" name="addTocartProcessor" finished-at="2024-12-27T10:31:19 BDT" duration-ms="3178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTocartProcessor -->
       </class> <!-- com.pchousebd.testcases.ProcessorAddToCartTest -->
       <class name="com.pchousebd.testcases.HomePageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@7e6f74c]" started-at="2024-12-27T05:34:39 BDT" name="setBrowser" finished-at="2024-12-27T05:34:40 BDT" duration-ms="1286" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@4b2bac3f]" started-at="2024-12-27T10:30:54 BDT" name="setBrowser" finished-at="2024-12-27T10:30:56 BDT" duration-ms="2165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="homePageStartup()[pri:0, instance:com.pchousebd.testcases.HomePageTest@7e6f74c]" started-at="2024-12-27T05:34:40 BDT" name="homePageStartup" finished-at="2024-12-27T05:34:42 BDT" duration-ms="1663" status="PASS">
+        <test-method signature="homePageStartup()[pri:0, instance:com.pchousebd.testcases.HomePageTest@4b2bac3f]" started-at="2024-12-27T10:30:56 BDT" name="homePageStartup" finished-at="2024-12-27T10:31:03 BDT" duration-ms="6800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageStartup -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@7e6f74c]" started-at="2024-12-27T05:34:51 BDT" name="quitBrowser" finished-at="2024-12-27T05:34:51 BDT" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@4b2bac3f]" started-at="2024-12-27T10:31:33 BDT" name="quitBrowser" finished-at="2024-12-27T10:31:34 BDT" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.pchousebd.testcases.HomePageTest -->
       <class name="com.pchousebd.testcases.selectIntelTest">
-        <test-method signature="selectIntel()[pri:0, instance:com.pchousebd.testcases.selectIntelTest@139982de]" started-at="2024-12-27T05:34:47 BDT" name="selectIntel" finished-at="2024-12-27T05:34:49 BDT" duration-ms="2692" status="PASS">
+        <test-method signature="selectIntel()[pri:0, instance:com.pchousebd.testcases.selectIntelTest@1c1bbc4e]" started-at="2024-12-27T10:31:10 BDT" name="selectIntel" finished-at="2024-12-27T10:31:14 BDT" duration-ms="3843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectIntel -->

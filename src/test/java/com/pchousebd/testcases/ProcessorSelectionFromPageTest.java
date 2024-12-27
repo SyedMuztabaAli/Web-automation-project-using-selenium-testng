@@ -1,19 +1,20 @@
 package com.pchousebd.testcases;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.pchousebd.pages.IntelProcessorPage;
+
 public class ProcessorSelectionFromPageTest extends Base {
 
-	
+	IntelProcessorPage intelprocessorpage = new IntelProcessorPage();
 	@Test
 	public void processorSelect() {
-		getDriver().findElement(By.xpath("(//div[contains(@class,'name')])[1]")).click();
+		intelprocessorpage.clickFirstProcessor();
 		
-		String actual = getDriver().findElement(By.xpath("//li[@class='tab-1 active']//a")).getText();
+		String actual = intelprocessorpage.actualMessage();
 		
-		String expected = "Specification";
-		Assert.assertTrue(actual.contains(expected),"Didn't select a processor");
+		String expected = intelprocessorpage.expectedMessage;
+		Assert.assertTrue(actual.contains(expected),intelprocessorpage.warningMessage);
 	}
 }

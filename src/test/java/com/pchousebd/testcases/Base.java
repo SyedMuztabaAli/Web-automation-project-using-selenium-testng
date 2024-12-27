@@ -1,7 +1,5 @@
 package com.pchousebd.testcases;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -14,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 	
 	private static String browsername = System.getProperty("browser", "chrome");
-	private static final ThreadLocal<WebDriver> DRIVER_LOCAL = new ThreadLocal();
+	private static final ThreadLocal<WebDriver> DRIVER_LOCAL = new ThreadLocal<WebDriver>();
 	public static WebDriver getDriver() {
 		return DRIVER_LOCAL.get();
 	}

@@ -11,6 +11,10 @@
 	  <class name="com.pchousebd.testcases.selectIntelTest"/>
  	  <class name="com.pchousebd.testcases.ProcessorSelectionFromPageTest"/>
 	  <class name="com.pchousebd.testcases.ProcessorAddToCartTest"/>
+	  <class name="com.pchousebd.testcases.GotoCheckoutPageTest"/>
+	  <class name="com.pchousebd.testcases.QuickChekoutTest"/>
+
+
 
     </classes>
   </test> <!-- Test -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   		<class name="com.pchousebd.testcases.HomePageTest"/>
+      	<class name="com.pchousebd.testcases.LoginTest"/>
+      	<class name="com.pchousebd.testcases.HomePageAfterLoginTest"/>
+	  	<class name="com.pchousebd.testcases.HoverToComponentMenuTest"/>
+	  	<class name="com.pchousebd.testcases.HoverToProcessorTest"/>
+	  	<class name="com.pchousebd.testcases.selectIntelTest"/>
+		<class name="com.pchousebd.testcases.ProcessorSelectionFromPageTest"/>
+  		<class name="com.pchousebd.testcases.ProcessorAddToCartTest"/>
+		<class name="com.pchousebd.testcases.GotoCheckoutPageTest"/>
+		<class name="com.pchousebd.testcases.QuickChekoutTest"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
