@@ -3,41 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.pchousebd.testcases.ProcessorSelectionFromPageTest">
+      <class name="com.pchousebd.testcases.CheckoutSuccessTest">
         <methods>
-          <include name="processorSelect"/>
+          <include name="checkoutSuccess"/>
           <include name="setBrowser"/>
           <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.pchousebd.testcases.ProcessorSelectionFromPageTest -->
-      <class name="com.pchousebd.testcases.QuickChekoutTest">
-        <methods>
-          <include name="checkout"/>
-          <include name="setBrowser"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- com.pchousebd.testcases.QuickChekoutTest -->
-      <class name="com.pchousebd.testcases.selectIntelTest">
-        <methods>
-          <include name="selectIntel"/>
-          <include name="setBrowser"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- com.pchousebd.testcases.selectIntelTest -->
-      <class name="com.pchousebd.testcases.ProcessorAddToCartTest">
-        <methods>
-          <include name="addTocartProcessor"/>
-          <include name="setBrowser"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- com.pchousebd.testcases.ProcessorAddToCartTest -->
-      <class name="com.pchousebd.testcases.GotoCheckoutPageTest">
-        <methods>
-          <include name="checkoutButtonClick"/>
-          <include name="setBrowser"/>
-          <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- com.pchousebd.testcases.GotoCheckoutPageTest -->
+      </class> <!-- com.pchousebd.testcases.CheckoutSuccessTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

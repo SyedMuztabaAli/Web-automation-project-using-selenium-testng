@@ -1,75 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-27T11:20:19 BDT" name="Suite" finished-at="2024-12-27T11:20:49 BDT" duration-ms="29860">
+  <suite started-at="2024-12-29T04:21:36 BDT" name="Suite" finished-at="2024-12-29T04:22:04 BDT" duration-ms="28573">
     <groups>
     </groups>
-    <test started-at="2024-12-27T11:20:19 BDT" name="Test" finished-at="2024-12-27T11:20:49 BDT" duration-ms="29860">
+    <test started-at="2024-12-29T04:21:36 BDT" name="Test" finished-at="2024-12-29T04:22:04 BDT" duration-ms="28573">
       <class name="com.pchousebd.testcases.HoverToProcessorTest">
-        <test-method signature="hoverToProcessorOptions()[pri:0, instance:com.pchousebd.testcases.HoverToProcessorTest@5fb7183b]" started-at="2024-12-27T11:20:27 BDT" name="hoverToProcessorOptions" finished-at="2024-12-27T11:20:27 BDT" duration-ms="656" status="PASS">
+        <test-method signature="hoverToProcessorOptions()[pri:0, instance:com.pchousebd.testcases.HoverToProcessorTest@476a736d]" started-at="2024-12-29T04:21:43 BDT" name="hoverToProcessorOptions" finished-at="2024-12-29T04:21:44 BDT" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverToProcessorOptions -->
       </class> <!-- com.pchousebd.testcases.HoverToProcessorTest -->
       <class name="com.pchousebd.testcases.HomePageAfterLoginTest">
-        <test-method signature="returnToHomePage()[pri:0, instance:com.pchousebd.testcases.HomePageAfterLoginTest@676ff3b0]" started-at="2024-12-27T11:20:25 BDT" name="returnToHomePage" finished-at="2024-12-27T11:20:26 BDT" duration-ms="1215" status="PASS">
+        <test-method signature="returnToHomePage()[pri:0, instance:com.pchousebd.testcases.HomePageAfterLoginTest@35ff8fc9]" started-at="2024-12-29T04:21:41 BDT" name="returnToHomePage" finished-at="2024-12-29T04:21:43 BDT" duration-ms="1499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnToHomePage -->
       </class> <!-- com.pchousebd.testcases.HomePageAfterLoginTest -->
       <class name="com.pchousebd.testcases.LoginTest">
-        <test-method signature="loginWithValidCredential()[pri:0, instance:com.pchousebd.testcases.LoginTest@74ad8d05]" started-at="2024-12-27T11:20:21 BDT" name="loginWithValidCredential" finished-at="2024-12-27T11:20:25 BDT" duration-ms="3443" status="PASS">
+        <test-method signature="loginWithValidCredential()[pri:0, instance:com.pchousebd.testcases.LoginTest@676ff3b0]" started-at="2024-12-29T04:21:38 BDT" name="loginWithValidCredential" finished-at="2024-12-29T04:21:41 BDT" duration-ms="2592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredential -->
       </class> <!-- com.pchousebd.testcases.LoginTest -->
       <class name="com.pchousebd.testcases.ProcessorSelectionFromPageTest">
-        <test-method signature="processorSelect()[pri:0, instance:com.pchousebd.testcases.ProcessorSelectionFromPageTest@65bcf7c2]" started-at="2024-12-27T11:20:31 BDT" name="processorSelect" finished-at="2024-12-27T11:20:32 BDT" duration-ms="1367" status="PASS">
+        <test-method signature="processorSelect()[pri:0, instance:com.pchousebd.testcases.ProcessorSelectionFromPageTest@3db64bd4]" started-at="2024-12-29T04:21:48 BDT" name="processorSelect" finished-at="2024-12-29T04:21:49 BDT" duration-ms="1537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processorSelect -->
       </class> <!-- com.pchousebd.testcases.ProcessorSelectionFromPageTest -->
       <class name="com.pchousebd.testcases.HoverToComponentMenuTest">
-        <test-method signature="hoverToComponentDropOptions()[pri:0, instance:com.pchousebd.testcases.HoverToComponentMenuTest@35ff8fc9]" started-at="2024-12-27T11:20:26 BDT" name="hoverToComponentDropOptions" finished-at="2024-12-27T11:20:27 BDT" duration-ms="673" status="PASS">
+        <test-method signature="hoverToComponentDropOptions()[pri:0, instance:com.pchousebd.testcases.HoverToComponentMenuTest@5fb7183b]" started-at="2024-12-29T04:21:43 BDT" name="hoverToComponentDropOptions" finished-at="2024-12-29T04:21:43 BDT" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverToComponentDropOptions -->
       </class> <!-- com.pchousebd.testcases.HoverToComponentMenuTest -->
       <class name="com.pchousebd.testcases.GotoCheckoutPageTest">
-        <test-method signature="checkoutButtonClick()[pri:0, instance:com.pchousebd.testcases.GotoCheckoutPageTest@32b9bd12]" started-at="2024-12-27T11:20:35 BDT" name="checkoutButtonClick" finished-at="2024-12-27T11:20:38 BDT" duration-ms="2873" status="PASS">
+        <test-method signature="checkoutButtonClick()[pri:0, instance:com.pchousebd.testcases.GotoCheckoutPageTest@352e787a]" started-at="2024-12-29T04:21:52 BDT" name="checkoutButtonClick" finished-at="2024-12-29T04:21:56 BDT" duration-ms="3228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutButtonClick -->
       </class> <!-- com.pchousebd.testcases.GotoCheckoutPageTest -->
+      <class name="com.pchousebd.testcases.CheckoutSuccessTest">
+        <test-method signature="checkoutSuccess()[pri:0, instance:com.pchousebd.testcases.CheckoutSuccessTest@3cbcd8f3]" started-at="2024-12-29T04:21:57 BDT" name="checkoutSuccess" finished-at="2024-12-29T04:22:04 BDT" duration-ms="7178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutSuccess -->
+      </class> <!-- com.pchousebd.testcases.CheckoutSuccessTest -->
       <class name="com.pchousebd.testcases.QuickChekoutTest">
-        <test-method signature="checkout()[pri:0, instance:com.pchousebd.testcases.QuickChekoutTest@7e75bf2d]" started-at="2024-12-27T11:20:38 BDT" name="checkout" finished-at="2024-12-27T11:20:49 BDT" duration-ms="10685" status="PASS">
+        <test-method signature="checkout()[pri:0, instance:com.pchousebd.testcases.QuickChekoutTest@385ef531]" started-at="2024-12-29T04:21:56 BDT" name="checkout" finished-at="2024-12-29T04:21:57 BDT" duration-ms="1519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout -->
       </class> <!-- com.pchousebd.testcases.QuickChekoutTest -->
       <class name="com.pchousebd.testcases.ProcessorAddToCartTest">
-        <test-method signature="addTocartProcessor()[pri:0, instance:com.pchousebd.testcases.ProcessorAddToCartTest@55ecbafe]" started-at="2024-12-27T11:20:32 BDT" name="addTocartProcessor" finished-at="2024-12-27T11:20:35 BDT" duration-ms="3119" status="PASS">
+        <test-method signature="addTocartProcessor()[pri:0, instance:com.pchousebd.testcases.ProcessorAddToCartTest@5a8ba37c]" started-at="2024-12-29T04:21:49 BDT" name="addTocartProcessor" finished-at="2024-12-29T04:21:52 BDT" duration-ms="3190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTocartProcessor -->
       </class> <!-- com.pchousebd.testcases.ProcessorAddToCartTest -->
       <class name="com.pchousebd.testcases.HomePageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@621f89b8]" started-at="2024-12-27T11:20:17 BDT" name="setBrowser" finished-at="2024-12-27T11:20:19 BDT" duration-ms="1755" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@f339eae]" started-at="2024-12-29T04:21:32 BDT" name="setBrowser" finished-at="2024-12-29T04:21:36 BDT" duration-ms="3988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="homePageStartup()[pri:0, instance:com.pchousebd.testcases.HomePageTest@621f89b8]" started-at="2024-12-27T11:20:19 BDT" name="homePageStartup" finished-at="2024-12-27T11:20:21 BDT" duration-ms="2261" status="PASS">
+        <test-method signature="homePageStartup()[pri:0, instance:com.pchousebd.testcases.HomePageTest@f339eae]" started-at="2024-12-29T04:21:36 BDT" name="homePageStartup" finished-at="2024-12-29T04:21:38 BDT" duration-ms="2391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageStartup -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@621f89b8]" started-at="2024-12-27T11:20:49 BDT" name="quitBrowser" finished-at="2024-12-27T11:20:49 BDT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.pchousebd.testcases.HomePageTest@f339eae]" started-at="2024-12-29T04:22:04 BDT" name="quitBrowser" finished-at="2024-12-29T04:22:05 BDT" duration-ms="738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.pchousebd.testcases.HomePageTest -->
       <class name="com.pchousebd.testcases.selectIntelTest">
-        <test-method signature="selectIntel()[pri:0, instance:com.pchousebd.testcases.selectIntelTest@476a736d]" started-at="2024-12-27T11:20:27 BDT" name="selectIntel" finished-at="2024-12-27T11:20:31 BDT" duration-ms="3430" status="PASS">
+        <test-method signature="selectIntel()[pri:0, instance:com.pchousebd.testcases.selectIntelTest@5f80fa43]" started-at="2024-12-29T04:21:44 BDT" name="selectIntel" finished-at="2024-12-29T04:21:48 BDT" duration-ms="3577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectIntel -->

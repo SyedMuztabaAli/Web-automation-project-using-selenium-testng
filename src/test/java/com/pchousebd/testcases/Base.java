@@ -7,6 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.pchousebd.utils.ScreenRecorderUtil;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
@@ -44,15 +46,21 @@ public class Base {
 	}
 	
 	@BeforeSuite
-	public static synchronized void setBrowser() {
+	public static synchronized void setBrowser() throws Exception {
+		//ScreenRecorderUtil.deleteRecords();
+		ScreenRecorderUtil.startRecord("testRecord");
+		
 		WebDriver webdriver = getBrowser(browsername);
 		webdriver.manage().window().maximize();
 		setDriver(webdriver);
 	}
 
 	@AfterSuite
-	public static synchronized void quitBrowser() {
+	public static synchronized void quitBrowser() throws Exception {
 		getDriver().quit();
+
+		ScreenRecorderUtil.stopRecord();
+		
 
 	}
 }

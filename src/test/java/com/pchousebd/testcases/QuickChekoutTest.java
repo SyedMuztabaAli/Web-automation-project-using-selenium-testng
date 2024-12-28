@@ -10,7 +10,7 @@ public class QuickChekoutTest extends Base{
 	public void checkout() throws InterruptedException {
 		try {
 			
-			quickcheckoutpage.inputName("Khan Bahadur");
+			quickcheckoutpage.inputName("Lewis Hamiton");
 			quickcheckoutpage.inputAddress("Uttara,Sector-6");
 		}
 		catch(Exception ex) {
@@ -21,8 +21,6 @@ public class QuickChekoutTest extends Base{
 		Thread.sleep(500);
 		
 		quickcheckoutpage.clickConfirm();
-		Thread.sleep(10000);
-		
 		
 	}
 

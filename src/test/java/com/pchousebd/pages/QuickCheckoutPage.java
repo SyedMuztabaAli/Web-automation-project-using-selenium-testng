@@ -12,6 +12,7 @@ public class QuickCheckoutPage extends Base{
 	//By checkboxPath = By.xpath("//label[contains(text(),'I have read and agree to the ')]");
 	By confirmButtonPath = By.xpath("//button[@id='quick-checkout-button-confirm']");
 	
+	
 	public void inputName(String name) {
 		getDriver().findElement(billingAddressName).sendKeys(name);
 	}
@@ -27,4 +28,6 @@ public class QuickCheckoutPage extends Base{
 	public void clickConfirm() {
 		getDriver().findElement(confirmButtonPath).click();
 	}
+	
+	
 }

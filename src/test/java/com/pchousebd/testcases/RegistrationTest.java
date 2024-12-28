@@ -1,28 +1,30 @@
 package com.pchousebd.testcases;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+
+import com.pchousebd.pages.RegistrationPage;
 
 public class RegistrationTest extends Base{
 	
     @Test
-    public void registerWithValidCredential(){
+    public void registerWithValidCredential() throws InterruptedException{
+    	RegistrationPage registrationpage = new RegistrationPage();
     	
-    	getDriver().findElement(By.xpath("//span[normalize-space()='Account']")).click();
-    	getDriver().findElement(By.xpath("//a[normalize-space()='Continue']")).click();
-    	getDriver().findElement(By.xpath("//input[@name='firstname']")).sendKeys("Khan");
-    	getDriver().findElement(By.xpath("//input[@name='lastname']")).sendKeys("Bahadur");
-    	getDriver().findElement(By.xpath("//input[@name='email']")).sendKeys("khan1234@gmail.com");
-    	getDriver().findElement(By.xpath("//input[@name='telephone']")).sendKeys("01345679012");
-    	getDriver().findElement(By.xpath("//input[@name='password']")).sendKeys("12345");
-    	getDriver().findElement(By.xpath("//input[@name='confirm']")).sendKeys("12345");
-    	getDriver().findElement(By.xpath("//input[@name='newsletter'][@value='1']")).click();
-    	getDriver().findElement(By.xpath("//input[@name='agree']")).click();
-    	getDriver().findElement(By.xpath("//span[normalize-space()='Continue']")).click();
+    	registrationpage.clickAccount();
+    	registrationpage.continuePah();
+    	registrationpage.inputFirstname("Lewis");
+    	registrationpage.inputLastname("Hamilton");
+    	registrationpage.inputEmail("lewishamilton@gmail.com");
+    	registrationpage.inputTelephone("01594569321");
+    	registrationpage.inputPassword("12345@g");
+    	registrationpage.inputConfirmPassword("12345@g");
+    	registrationpage.ClickNewsletter();
+    	registrationpage.clickAgreePrivacy();
+    	registrationpage.clickRegistrationConfirm();
+    	registrationpage.clickContinuetoProfile();
     	
+    	Thread.sleep(1000);
     	
     }
-    
-    
     
 }

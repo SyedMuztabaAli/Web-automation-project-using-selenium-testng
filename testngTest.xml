@@ -13,7 +13,7 @@
   		<class name="com.pchousebd.testcases.ProcessorAddToCartTest"/>
 		<class name="com.pchousebd.testcases.GotoCheckoutPageTest"/>
 		<class name="com.pchousebd.testcases.QuickChekoutTest"/>
-
+		<class name="com.pchousebd.testcases.CheckoutSuccessTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

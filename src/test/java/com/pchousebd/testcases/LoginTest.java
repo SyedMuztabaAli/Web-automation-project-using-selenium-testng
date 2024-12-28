@@ -18,8 +18,8 @@ public class LoginTest extends Base{
 		String actual = getDriver().findElement(By.xpath("//span[normalize-space()='My Account']")).getText();
 		*/
 		loginpage.clickAccount();
-		loginpage.inputEmail("khan1234@gmail.com");
-		loginpage.inputPassword("12345");
+		loginpage.inputEmail("lewishamilton@gmail.com");
+		loginpage.inputPassword("12345@g");
 		loginpage.clickSubmit();
 		
 		String actual = loginpage.actualMessage();
