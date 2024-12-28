@@ -4,7 +4,7 @@ Web automation project using selenium and testng on pc_house_bd on the following
 The website does not have active logout module so I have created 2 xml file.
 
 1. testng.xml : Contains the registration module
-2. testngTest.xml : Contains all the other modules (Login, Product Selection, Add to Cart, Checkout.)
+2. testngTest.xml : Contains all the other modules (Login, Product Selection, Add to Cart, Checkout)
 
 Walk Through</br>
 1.Here is a GIF representaion of testngsignup.xml (Registration Module)
