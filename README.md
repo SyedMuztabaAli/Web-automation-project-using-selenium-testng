@@ -6,7 +6,7 @@ The website does not have active logout module so I have created 2 xml file.
 1. testng.xml : Contains the registration module
 2. testngTest.xml : Contains all the other modules (Login, Product Selection, Add to Cart, Checkout.)
 
-WALK_THROUGH</br>
+Walk Through</br>
 1.Here is a GIF representaion of testngsignup.xml (Registration Module)
 ![testRecord-2024-12-29 04 19 44](https://github.com/user-attachments/assets/c9cdde27-87c0-4408-92d4-47adf5ebf55f)
 
