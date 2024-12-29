@@ -47,7 +47,7 @@ public class Base {
 	
 	@BeforeSuite
 	public static synchronized void setBrowser() throws Exception {
-		//ScreenRecorderUtil.deleteRecords();
+		ScreenRecorderUtil.deleteRecords();
 		ScreenRecorderUtil.startRecord("testRecord");
 		
 		WebDriver webdriver = getBrowser(browsername);
